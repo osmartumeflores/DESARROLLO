@@ -1,0 +1,14 @@
+/* 1. Empieza con (^=) - Clases que inicien con 'card' */
+[class^="card"] { border-left: 4px solid #3182ce; }
+
+/* 2. Termina con ($=) - Enlaces que terminen en '.pe' */
+a[href$=".pe"] { color: #276749; }
+
+/* 3. Contiene (*=) - Atributos class que contengan la palabra 'box' */
+[class*="box"] { padding: 15px; background-color: #edf2f7; }
+
+/* 4. Enlaces seguras que inicien con 'https' */
+a[href^="https"] { font-weight: bold; }
+
+/* 5. Inputs con name que contengan 'input' */
+input[name*="input"] { background-color: #fffaf0; }

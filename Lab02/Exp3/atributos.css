@@ -1,0 +1,25 @@
+/* 1. Selector de atributo existente */
+[target] {
+  font-weight: bold;
+}
+
+/* 2. Selector de atributo con valor exacto */
+[target="_blank"] {
+  color: #2b6cb0;
+}
+
+/* 3. Selector por el tipo de input */
+input[type="text"] {
+  border: 2px solid #4a5568;
+  padding: 6px;
+}
+
+/* 4. Selector por presencia de atributo requerido */
+input[required] {
+  border-left: 4px solid #abe53e;
+}
+
+/* 5. Selector de atributo por prefijo exacto */
+[class|="card"] {
+  border-radius: 6px;
+}

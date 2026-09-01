@@ -1,0 +1,20 @@
+/* 1. ::before - Inserta contenido antes del elemento */
+.card-title::before { content: "📌 "; }
+
+/* 2. ::after - Inserta contenido después del elemento */
+.nav-link[target="_blank"]::after { content: " ↗"; font-size: 11px; }
+
+/* 3. ::first-letter - Estiliza la primera letra del párrafo */
+.description::first-letter { font-size: 180%; font-weight: bold; color: #b02b69; }
+
+/* 4. ::first-line - Estiliza la primera línea del párrafo */
+.description::first-line { letter-spacing: 1px; font-weight: 500; }
+
+/* 5. ::selection - Estilo cuando el usuario selecciona texto con el mouse */
+::selection { background-color: #feebc8; color: #742a2a; }
+
+/* 6. ::placeholder - Estilo del texto guía en los campos input */
+input::placeholder { color: #a0aec0; font-style: italic; }
+
+/* 7. ::marker - Estiliza las viñetas de las listas */
+ul li::marker { color: #3182ce; font-size: 1.2em; }

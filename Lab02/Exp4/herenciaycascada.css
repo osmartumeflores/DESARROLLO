@@ -1,0 +1,42 @@
+/* --- 7 CASOS DE HERENCIA --- */
+body {
+  /* 1, 2, 3. Propiedades heredables por todos los elementos hijos */
+  font-family: Arial, sans-serif;
+  color: #2d3748;
+  line-height: 1.5;
+}
+
+.info-card {
+  /* 4, 5. Alineación y estilo de fuente heredados por párrafos e inputs */
+  text-align: left;
+  font-style: normal;
+}
+
+.topics-list {
+  /* 6, 7. Los <li> heredan el color y la visibilidad configurada en el <ul> */
+  color: #2b6cb0;
+  visibility: visible;
+}
+
+/* --- 5 CASOS DE CASCADA Y ESPECIFICIDAD --- */
+/* Caso 1: Orden de Origen (Aplica el segundo por estar escrito después) */
+p { color: #000000; }
+p { color: #4a5568; } 
+
+/* Caso 2: Especificidad de Clase sobre Etiqueta */
+p { color: #000000; }             /* Especificidad: 0-0-1 */
+.description { color: #2b6cb0; }   /* Especificidad: 0-1-0 (Gana esta regla) */
+
+/* Caso 3: Especificidad de ID sobre Clase */
+.header-box { background-color: #e2e8f0; } /* Especificidad: 0-1-0 */
+#main-header { background-color: #2d3748; }/* Especificidad: 1-0-0 (Gana esta regla) */
+
+/* Caso 4: Selector Combinado gana a Selector Simple */
+nav a { color: #e53e3e; }         /* Especificidad: 0-0-2 */
+.nav-link { color: #3182ce; }     /* Especificidad: 0-1-0 (Gana esta regla) */
+
+/* Caso 5: Regla !important (Anula la cascada habitual) */
+.btn-action {
+  color: #ffffff !important;      /* Anula cualquier otra regla previa */
+  background-color: #dd6b20;
+}

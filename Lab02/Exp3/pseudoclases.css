@@ -1,0 +1,29 @@
+/* 1. :hover - Cambio de aspecto al pasar el cursor */
+a:hover { color: #e53e3e; text-decoration: underline; }
+
+/* 2. :active - Al hacer clic */
+a:active { color: #c53030; }
+
+/* 3. :focus - Al seleccionar un input */
+input:focus { outline: none; border-color: #3182ce; box-shadow: 0 0 5px rgba(49, 130, 206, 0.5); }
+
+/* 4. :visited - Enlaces visitados */
+a:visited { color: #6b46c1; }
+
+/* 5. :first-child - Primer hijo dentro de un contenedor */
+ul li:first-child { font-weight: bold; color: #2b6cb0; }
+
+/* 6. :last-child - Último hijo dentro de un contenedor */
+ul li:last-child { font-style: italic; }
+
+/* 7. :nth-child(n) - Selección por posición exacta */
+ul li:nth-child(2) { color: #d69e2e; }
+
+/* 8. :not() - Negación de selección */
+.input-field:not([required]) { background-color: #edf2f7; }
+
+/* 9. :checked - Para checkboxes/radios seleccionados */
+input:checked { accent-color: #319795; }
+
+/* 10. :empty - Contenedores o elementos sin contenido */
+div:empty { display: none; }
