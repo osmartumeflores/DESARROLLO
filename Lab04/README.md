@@ -1,30 +1,50 @@
 # Laboratorio 04: Fundamentos de JavaScript
 
-Códigos de las 4 experiencias prácticas del Laboratorio 04 de Desarrollo de Aplicaciones.
+Códigos de las 4 experiencias prácticas y los 6 ejercicios propuestos del Laboratorio 04 de Desarrollo de Aplicaciones.
 
 ## Estructura de Carpetas
 
 ```
 Lab04/
-├── Experiencia01/
-│   ├── index.html
-│   └── main.js
-├── Experiencia02/
-│   ├── index.html
-│   └── main.js
-├── Experiencia03/
-│   ├── index.html
-│   └── main.js
-├── Experiencia04/
-│   ├── index.html
-│   └── main.js
+├── actividades/
+│   ├── Experiencia01/
+│   │   ├── index.html
+│   │   └── main.js
+│   ├── Experiencia02/
+│   │   ├── index.html
+│   │   └── main.js
+│   ├── Experiencia03/
+│   │   ├── index.html
+│   │   └── main.js
+│   └── Experiencia04/
+│       ├── index.html
+│       └── main.js
+├── ejercicios_propuestos/
+│   ├── Ejercicio01/
+│   │   ├── index.html
+│   │   └── main.js
+│   ├── Ejercicio02/
+│   │   ├── index.html
+│   │   └── main.js
+│   ├── Ejercicio03/
+│   │   ├── index.html
+│   │   └── main.js
+│   ├── Ejercicio04/
+│   │   ├── index.html
+│   │   └── main.js
+│   ├── Ejercicio05/
+│   │   ├── index.html
+│   │   └── main.js
+│   └── Ejercicio06/
+│       ├── index.html
+│       └── main.js
 └── README.md
 ```
 
 ## Descripción de cada Experiencia
 
 ### Experiencia 01: Primer Contacto con JavaScript
-**Archivo:** `Experiencia01/`
+**Archivo:** `actividades/Experiencia01/`
 
 Contiene los conceptos fundamentales:
 - Formas de incorporar JavaScript (en línea, interno, externo)
@@ -35,12 +55,12 @@ Contiene los conceptos fundamentales:
 - Hoisting
 - Operadores aritméticos
 
-**Para ejecutar:** Abre `Experiencia01/index.html` en el navegador y revisa la consola (F12).
+**Para ejecutar:** Abre `actividades/Experiencia01/index.html` en el navegador y revisa la consola (F12).
 
 ---
 
 ### Experiencia 02: Funciones Reutilizables
-**Archivo:** `Experiencia02/`
+**Archivo:** `actividades/Experiencia02/`
 
 Conceptos cubiertos:
 - Declaración de funciones
@@ -52,12 +72,12 @@ Conceptos cubiertos:
 - Funciones como argumentos (ciudadanos de primera clase)
 - Funciones de orden superior
 
-**Para ejecutar:** Abre `Experiencia02/index.html` en el navegador y revisa la consola (F12).
+**Para ejecutar:** Abre `actividades/Experiencia02/index.html` en el navegador y revisa la consola (F12).
 
 ---
 
 ### Experiencia 03: Objetos y Arrays
-**Archivo:** `Experiencia03/`
+**Archivo:** `actividades/Experiencia03/`
 
 Incluye:
 - Creación y manipulación de objetos
@@ -72,12 +92,12 @@ Incluye:
   - `find()` - búsqueda
   - `reduce()` - acumulación
 
-**Para ejecutar:** Abre `Experiencia03/index.html` en el navegador y revisa la consola (F12).
+**Para ejecutar:** Abre `actividades/Experiencia03/index.html` en el navegador y revisa la consola (F12).
 
 ---
 
 ### Experiencia 04: Validación y Manejo de Errores
-**Archivo:** `Experiencia04/`
+**Archivo:** `actividades/Experiencia04/`
 
 Temas tratados:
 - Conversión de tipos (`Number()`, `String()`, `Boolean()`)
@@ -88,7 +108,22 @@ Temas tratados:
 - Bloque `finally`
 - Creación de validaciones personalizadas
 
-**Para ejecutar:** Abre `Experiencia04/index.html` en el navegador y revisa la consola (F12).
+**Para ejecutar:** Abre `actividades/Experiencia04/index.html` en el navegador y revisa la consola (F12).
+
+---
+
+## Ejercicios propuestos
+
+Las soluciones de los ejercicios del PDF se encuentran en `ejercicios_propuestos/`:
+
+1. Calculadora de costo de envio
+2. Analisis de calificaciones
+3. Generador de codigos unicos
+4. Sistema de reservas de cine
+5. Pipeline de transformaciones
+6. Registro de participantes
+
+Cada ejercicio incluye un `index.html` y un `main.js`. Abre el HTML correspondiente en el navegador y revisa la consola (F12).
 
 ---
 
@@ -100,10 +135,10 @@ Temas tratados:
 2. **Revisa la consola del navegador:**
    - Presiona `F12` para abrir las Herramientas de Desarrollador
    - Ve a la pestaña "Console" para ver todos los resultados
-   - Todos los `console.log()` se mostrarán ordenados por experiencia
+   - Todos los `console.log()` se mostrarán ordenados por actividad o ejercicio
 
 3. **Modifica el código:**
-   - Puedes editar los archivos `main.js` de cada experiencia
+   - Puedes editar los archivos `main.js` de cada actividad o ejercicio
    - Actualiza la página del navegador (F5) para ver los cambios
 
 ## Requisitos
